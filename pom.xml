@@ -20,6 +20,15 @@
 
     <profiles>
         <profile>
+            <id>desktop</id>
+            <properties>
+                <gluonfx.target>host</gluonfx.target>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
             <id>pi</id>
             <properties>
                 <gluonfx.target>linux-aarch64</gluonfx.target>
